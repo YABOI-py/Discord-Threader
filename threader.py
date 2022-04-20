@@ -10,8 +10,8 @@ class Discord():
     def createthread(token,name,channelid):
         payload = json.dumps({
         "name": name,
-        "type": 12,
-        "auto_archive_duration": 1440,
+        "type": 11,
+        "auto_archive_duration": 60,
         "location": "Thread Browser Toolbar"
         })
         headers = {
